@@ -1,14 +1,32 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-family: 'Creepster';
+  font-size: 80px;
 }
+.player0 {
+  display: none;
+}
+.playerX {
+  display: none;
+}
+.playerNone {
+  display: none;
+}
+
 .GameBoard{
+ 
   height: 600px;
-  Width:  600px;
-  background-color: rgb(0,255,0);
+  width:  600px;
+  border-radius: 30px;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  box-shadow: 0px 0px 40px red;
+  
+ 
 }
 .topleft{
   height: 198px;
@@ -109,4 +127,25 @@ html, body {
 }
 .bottomright:hover{
   background-color:red;
+}
+.Tic{
+  text-align: center;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.Tic:hover{
+  font-size: 100px;
+  transform: 4s;
+  color: #6c0909;
+}
+body{
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.px{
+  color:gray;
+  text-align: center;
+}
+.po{
+  color: rgba(255,0,0,.55);
+  text-align: center;
 }
