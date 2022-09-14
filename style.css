@@ -1,0 +1,112 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.GameBoard{
+  height: 600px;
+  Width:  600px;
+  background-color: rgb(0,255,0);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.topleft{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topleft:hover{
+  background-color:red;
+}
+.topmiddle{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topmiddle:hover{
+  background-color:red;
+}
+.topright{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topright:hover{
+  background-color:red;
+}
+.middleleft{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middleleft:hover{
+  background-color:red;
+}
+.middlemiddle{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middlemiddle:hover{
+  background-color:red;
+}
+
+.middleright{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middleright:hover{
+  background-color:red;
+}
+.bottomleft{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomleft:hover{
+  background-color:red;
+}
+.bottommiddle{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottommiddle:hover{
+  background-color:red;
+}
+.bottomright{
+  height: 198px;
+  width: 198px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomright:hover{
+  background-color:red;
+}
